@@ -1,0 +1,158 @@
+.section-contacts__title {
+  font-size: 40px;
+  margin: 0 auto 35px;
+  font-family: 'Cinzel', serif;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.container {
+  position: relative;
+  font-size: 26px;
+  background-color: #FEF2C6;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  margin-top: -15px;
+ }
+
+  .contacts {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section-contacts {
+    overflow: hidden;
+    margin: 10px 0 10px;
+    padding: 70px 0 30px;
+  }
+
+  .contacts__start {
+    width: 50%;
+  }
+  
+  .contacts__end {
+    width: 50%;
+    text-align: left;
+    margin-left: 30px;
+  }
+  
+  .contacts__map {
+    height: 450px;
+    width: 490px;
+    background: #f9f5ff;  
+    margin: auto;
+    
+  }
+ 
+  .contacts__item {
+    left: 30px;
+    margin-bottom: 35px;
+    font-size: 30px;
+    
+
+  }
+  .socials{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+
+  .socials__item{
+   margin-right: 7px;
+   display: inline-block;
+  }
+  .socials__logo{
+    fill: #f1f1f1;
+  }
+  .social__icon{
+    width: 35px;
+    height: 35px;
+    transition: fill 0.2s, opacity .2s;
+  }
+  .socials__icon--vk:hover{
+    fill:#5078a5;
+  }
+  .socials__icon--inst:hover{
+    fill:#e63690;
+  }
+  
+  .contacts__item:last-of-type:hover {
+    margin-bottom: 0;
+  }
+
+  .social__icon:active{
+    opacity: .7s;
+  }
+  
+  .contacts__title {
+    margin: 0 0 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+  }
+  
+  .contacts__text {
+    margin: 0;
+    padding: 10px 10px;
+    font-size: 24px;
+  }
+  
+  .contacts__phone {
+    color: inherit;
+    text-decoration: none;
+    transition: color .2s;
+  }
+  
+  .contacts__phone:hover {
+    color: #ffa650;
+  }
+ 
+  @media (max-width: 1200px) {
+    .section-contacts__container::before {
+      right: -50px;
+    }
+    /* .section-lower__text{
+    } */
+  }
+  
+  @media (max-width: 992px) {
+    .contacts__map {
+      height: 350px;
+      margin: 0;
+    }
+    .contacts{
+      flex-wrap: wrap;
+      margin-right: 300px;
+  }
+  .contacts__start{
+    margin-bottom: 30px;
+  }
+}
+  
+  @media (max-width: 767px) {
+    .section-contacts {
+      padding-bottom: 0;
+    }
+    .contacts{
+      flex-wrap: wrap;
+      margin-right: 300px;
+    }
+    .contacts__start{
+      margin-bottom: 30px;
+    }
+  }
+  .section-lower__text {
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+    font-size: 46px;
+    line-height: 1;   
+    max-width: 100%;
+    padding: 10px 110px 80px;
+  }
+  .lower__text{
+    font-size: 20px;
+  }
+
